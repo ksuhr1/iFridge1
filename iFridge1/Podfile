@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.2'
+
+target 'iFridge1' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iFridge1
+  pod 'TesseractOCRiOS', '4.0.0'
+  target 'iFridge1Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
